@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Game : Lancement</title>
+    <style>
+        /* Styles CSS minimalistes et engageants pour le mode sombre */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #1A1A1D; /* Fond sombre de l'image_1.png */
+            color: #f0f0f5; /* Texte clair */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .main-container {
+            max-width: 500px;
+            padding: 40px;
+            border-radius: 12px;
+            background-color: #2C2C30; /* Carte subtile de l'image_1.png */
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        h1 {
+            font-size: 2.8em;
+            margin-bottom: 0.3em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #ff3b30; /* Accent rouge cramoisi engageant */
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #a1a1aa;
+            margin-bottom: 25px;
+            font-weight: 300;
+        }
+
+        p {
+            font-size: 1em;
+            line-height: 1.6;
+            margin-bottom: 35px;
+            color: #e4e4e7;
+        }
+
+        .play-button {
+            display: inline-block;
+            background-color: #ff3b30; /* Couleur du bouton engageante */
+            color: #1c1c1e;
+            padding: 18px 45px;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(255, 59, 48, 0.3);
+        }
+
+        .play-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(255, 59, 48, 0.5);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <h1>L'ULTIMATUM</h1>
+        <p class="subtitle">Votre aventure commence ici.</p>
+        <p>Vous êtes à un clic d'entrer dans un monde de mystères et de défis. Serez-vous à la hauteur du test ? Préparez votre esprit pour l'ultime expérience.</p>
+        
+        <a href="Escape_Game_test.html" class="play-button">COMMENCER L'AVENTURE</a>
+    </div>
+</body>
+</html>
